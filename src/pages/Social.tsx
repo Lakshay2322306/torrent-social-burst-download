@@ -1,10 +1,9 @@
-
 import Layout from '@/components/Layout';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/components/ui/use-toast";
-import { Youtube, Twitter, Instagram, TikTok, Facebook, Share } from "lucide-react";
+import { Youtube, Twitter, Instagram, Video, Facebook, Share } from "lucide-react";
 import { useState } from 'react';
 
 const socialPlatforms = [
@@ -28,7 +27,7 @@ const socialPlatforms = [
   },
   {
     name: 'TikTok',
-    icon: TikTok,
+    icon: Video,
     color: 'text-black',
     placeholder: 'https://tiktok.com/@username/video/...'
   },
